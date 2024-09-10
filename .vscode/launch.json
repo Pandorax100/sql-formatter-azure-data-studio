@@ -12,6 +12,15 @@
       "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
       "outFiles": ["${workspaceFolder}/out/**/*.js"],
       "preLaunchTask": "${defaultBuildTask}"
+    },
+    {
+      "name": "Azure Data Studio Extension",
+      "type": "sqlopsExtensionHost",
+      "request": "launch",
+      "runtimeExecutable": "azuredatastudio",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
+      "outFiles": ["${workspaceFolder}/out/**/*.js"],
+      "preLaunchTask": "npm: watch"
     }
   ]
 }

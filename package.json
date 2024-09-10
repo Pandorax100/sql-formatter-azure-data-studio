@@ -18,7 +18,8 @@
   "license": "MIT",
   "icon": "sql-formatter-icon.png",
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.70.0",
+    "azdata": "*"
   },
   "repository": {
     "type": "git",
